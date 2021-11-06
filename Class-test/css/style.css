@@ -1,0 +1,87 @@
+html{
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+}
+.banner {
+  width: 100%;
+  background-color: rgb(180, 216, 204);
+}
+#menu li {
+  padding: 10px;
+  list-style: none;
+  float: right;
+  position: relative;
+}
+.second {
+  margin: auto;
+  /* clear: both; */
+  background-image: url("../img/Dp.png");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 400px;
+  text-align: center;
+}
+
+.abs {
+  display: block;
+  font-size: 30px;
+  color: aquamarine;
+  /* position: absolute; */
+  float: center;
+  margin: 50px;
+}
+
+.clear-fix {
+  clear: both;
+}
+
+.banner:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.sect {
+  background-color: rgb(97, 131, 120);
+}
+#imgg {
+  padding: 30px;
+  height: 300px;
+  width: 400px;
+}
+.div {
+  margin-top: 90px;
+  text-align: left;
+  position: absolute;
+  display: inline-block;
+  float: right;
+}
+.section {
+  background-color: rgb(10, 10, 10);
+  height: 500px;
+}
+#dvimg {
+  border-radius: 10%;
+  width: 29.3333%;
+  height: 300px;
+  padding: 10px;
+  margin: 10px 10px;
+  float: left;
+  display: inline-block;
+  background-color: rgb(241, 238, 238);
+}
+#dvimg p {
+  font-weight: bolder;
+}
+
+.new {
+  border-radius: 3%;
+  max-width: 100%;
+}
+#black {
+  padding: 30px;
+  color: white;
+}
